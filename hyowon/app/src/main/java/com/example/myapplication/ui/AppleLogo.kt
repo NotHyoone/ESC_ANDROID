@@ -23,8 +23,8 @@ fun AppleLogo(
         contentAlignment = Alignment.Center
     ) {
         Image(
-            painter = painterResource(id = R.drawable.ic_apple_logo),
-            contentDescription = stringResource(id = R.string.apple_logo_content_description),
+            painter = painterResource(id = R.drawable.githublogo),
+            contentDescription = stringResource(id = R.string.github_logo_content_description),
             modifier = Modifier.size(200.dp)
         )
     }

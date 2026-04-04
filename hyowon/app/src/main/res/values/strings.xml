@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Hyowon App</string>
-    <string name="apple_logo_content_description">Apple Logo</string>
+    <string name="app_name" translatable="false">Hyowon App</string>
+    <string name="github_logo_content_description" translatable="false">GitHub Logo</string>
 </resources>
