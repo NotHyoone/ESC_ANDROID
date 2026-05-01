@@ -60,10 +60,11 @@ fun MainScreen(mainActivity: MainActivity) {
                     count = 0
                     message = "너무 많이 누르지 마세요"
                 }
-                if (count == 46) {
+                else if (count == 46) {
                     buttonColor = Color.Red
                     message = "내 학번 끝 2자리:46"
                 } else {
+                    buttonColor = Color.Blue
                     message = "버튼 클릭됨"
                 }
             },
