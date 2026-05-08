@@ -19,6 +19,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.ui.graphics.Color
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +36,7 @@ class MainActivity : ComponentActivity() {
 fun MainScreen() {
     var message by remember { mutableStateOf("안녕하세요") }
     var count by remember { mutableStateOf(0) }
+    var buttonColor = if (count == 44) Color.Blue else Color.Gray
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -58,7 +61,14 @@ fun MainScreen() {
             onClick = {
                 count++
                 message = "버튼을 눌렀어요!"
-            }
+                if (count == 100)
+                {
+                    message = "너무 많이 누르지 마세요"
+                    count = 0
+                }
+
+            },
+            colors = ButtonDefaults.buttonColors(containerColor =  buttonColor)
         ) {
             Text("클릭하기")
         }

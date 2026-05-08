@@ -7,6 +7,7 @@ android {
     namespace = "com.example.myapplication"
     compileSdk {
         version = release(36) {
+
             minorApiLevel = 1
         }
     }
