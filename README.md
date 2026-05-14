@@ -52,7 +52,7 @@
 | ----- | ----------------------- | ------------ |
 | 0주차   | Git & GitHub 협업         | [노션 보기](https://pointy-menu-19d.notion.site/2026-STUDY-HELPER-1f2adb0efe2d80f9965acd95f514ef1c?source=copy_link) |
 | 1주차   | Android 구조 + Compose 기초 | [PPT 보기](https://docs.google.com/presentation/d/1kQz7raeqtHphN-uGoefB9KZOX3MXNs1XbClLAXwApQA/edit?usp=sharing) |
-| 2주차   | UI 구성 (Compose)         | [PPT 보기](링크) |
+| 2주차   | Navigation              | [PPT 보기](https://github.com/user-attachments/files/27566621/default.pdf) |
 | 3주차   | Navigation              | [PPT 보기](링크) |
 | 4주차   | API 통신                  | [PPT 보기](링크) |
 | 5주차   | 데이터 저장                  | [PPT 보기](링크) |
