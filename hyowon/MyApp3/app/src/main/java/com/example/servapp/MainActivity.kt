@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
      * 앱에서 접근하는 주소:
      * http://10.0.2.2:8000
      */
-    private val baseUrl = "http://172.20.48.242:8000"
+    private val baseUrl = "https://retrace-habitat-quicken.ngrok-free.dev"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
